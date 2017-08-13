@@ -6,7 +6,7 @@ class PageContact extends Page {
     render() {
         return(
             <div className="page" id="page_contact">
-                <Title level={1} value="Contact Me" />
+                <Title level={1} value="Fart On Me!" />
             </div>
         )
     }

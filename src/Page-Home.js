@@ -6,7 +6,7 @@ class PageHome extends Page {
     render() {
         return(
             <div className="page" id="page_home">
-                <Title level={1} value="Star Wars Encyclopedia" />
+                <Title level={1} value="React Playground" />
             </div>
         )
     }

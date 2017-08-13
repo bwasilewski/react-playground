@@ -1,6 +1,6 @@
 # React Playground
 
-The purpose of this project is to provide myself an easy environment for learning about, building, and testing React  and React components.
+The purpose of this project is to provide myself a simple environment for learning about, building, and testing React applications and components.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 

@@ -1,0 +1,8 @@
+.navigation {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.navigation a {
+    cursor: pointer;
+}

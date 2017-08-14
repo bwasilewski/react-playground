@@ -1,0 +1,11 @@
+.Form {
+    width: 400px;
+}
+
+.Form input {
+    margin-bottom: 20px;
+}
+
+.Form textarea {
+    height: 200px;
+}

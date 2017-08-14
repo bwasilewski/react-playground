@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Title.css'
 
-class Title extends Component {
+class Title extends React.Component {
     render() {
         const id = this.props.id || '';
         const el = React.createElement('h' + this.props.level, {

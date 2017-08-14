@@ -1,16 +1,25 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PageHome from './Page-Home'
 import PageAbout from './Page-About'
 import PageContact from './Page-Contact'
 import Navigation from './Navigation'
+import _ from 'underscore'
 // import logo from './logo.svg'
 import './App.css'
 
-class App extends Component {
-    currentpage: window.location.pathname
+class App extends React.Component {
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            greeting: 'Hello'
+        }
+    }
     render() {
         const path = this.detectPage()
         let content
+
+        console.log('State: ', this.state)
 
         switch (path) {
             case '/':

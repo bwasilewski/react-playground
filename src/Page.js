@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Page.css'
 
-class Page extends Component {
+class Page extends React.Component {
     render() {
         return(<div></div>)
     }

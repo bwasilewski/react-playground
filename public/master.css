@@ -1,8 +1,10 @@
 :root {
     --body-color: #cecece;
     --body-bg-color: #222;
+    --component-spacing: .75rem;
 }
 
 html, body {
     height: 100%;
+    overflow: auto;
 }
